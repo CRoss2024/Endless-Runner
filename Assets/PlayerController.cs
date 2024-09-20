@@ -18,10 +18,12 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource sfxPlayer;
     public AudioSource musicPlayer;
+    Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();   // Get the Rigidbody2D component attached to the player
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
+        anim.SetBool("IsOnGround", isGrounded);
     }
 
     private void Jump()
