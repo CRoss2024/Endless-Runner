@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -147,7 +147,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ScrewJumping_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178dfcf50d0532b4995204ff7eb942b7
+      internalID: 113831991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e2f322e0e58e34c9615cf12dd3144d
+      internalID: 1786726552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c5ab6cb20df943afce4c8811a0285
+      internalID: -257620947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc33c3dee67427749b7aef37fac6ff6c
+      internalID: -342662229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_4
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01222a4e094e054f968982d93ca9ca2
+      internalID: 2059515821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_5
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f55c4e10a4e5e44898433b51d6ed551
+      internalID: -448986991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_6
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442da01658eee8f4e83355aec41546f3
+      internalID: 1854339419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrewJumping_7
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 0
+        width: 109.375
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538677cc6a4d6af4e8e5f817ef2832b3
+      internalID: 2074617631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +326,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScrewJumping_0: 113831991
+      ScrewJumping_1: 1786726552
+      ScrewJumping_2: -257620947
+      ScrewJumping_3: -342662229
+      ScrewJumping_4: 2059515821
+      ScrewJumping_5: -448986991
+      ScrewJumping_6: 1854339419
+      ScrewJumping_7: 2074617631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
