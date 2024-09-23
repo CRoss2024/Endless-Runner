@@ -569,8 +569,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - {fileID: 2021499333570950561, guid: 5d77481dc3e3b10478d9ae8111a843eb, type: 3}
-  minSpawnTime: 0.5
-  maxSpawnTime: 3
+  minSpawnTime: 1
+  maxSpawnTime: 5
 --- !u!1 &936064579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,7 +1367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3459281090847471759, guid: 5d77481dc3e3b10478d9ae8111a843eb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 9.8677435
+      value: 13.240085
       objectReference: {fileID: 0}
     - target: {fileID: 3459281090847471759, guid: 5d77481dc3e3b10478d9ae8111a843eb, type: 3}
       propertyPath: m_LocalPosition.x
