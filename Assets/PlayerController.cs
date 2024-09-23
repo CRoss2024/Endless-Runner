@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();   // Get the Rigidbody2D component attached to the player
+        sfxPlayer = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
     }
 
@@ -44,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        sfxPlayer.PlayOneShot(jump);
         // Add an upward force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
     }
