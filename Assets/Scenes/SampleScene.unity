@@ -569,8 +569,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - {fileID: 2021499333570950561, guid: 5d77481dc3e3b10478d9ae8111a843eb, type: 3}
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 3
+  maxSpawnTime: 7
 --- !u!1 &936064579
 GameObject:
   m_ObjectHideFlags: 0
