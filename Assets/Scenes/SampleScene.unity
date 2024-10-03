@@ -657,7 +657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &343641624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb054344c79a28c4a8112afd845af29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathScreenCanvas: {fileID: 0}
+  deathScreenCanvas: {fileID: 343641623}
 --- !u!4 &418455136
 Transform:
   m_ObjectHideFlags: 0
@@ -1350,6 +1350,7 @@ GameObject:
   - component: {fileID: 936064585}
   - component: {fileID: 936064587}
   - component: {fileID: 936064586}
+  - component: {fileID: 936064588}
   m_Layer: 0
   m_Name: Screw
   m_TagString: Player
@@ -1732,6 +1733,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &936064588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936064579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7b3fe5e341bae46b9a4f03fb7ea7e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallThreshold: -10
 --- !u!1 &1290400382
 GameObject:
   m_ObjectHideFlags: 0
