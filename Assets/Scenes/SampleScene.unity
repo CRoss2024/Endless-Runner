@@ -935,8 +935,8 @@ MonoBehaviour:
   - {fileID: 7516325128875097788, guid: 7c7b5af067ad195419925e1d97794911, type: 3}
   - {fileID: 1626562427464170449, guid: 7f783ee75c56a8a458f8497a04ca6d5b, type: 3}
   - {fileID: 4289490651985766327, guid: 1d15a97d831700b409cc15c75869f497, type: 3}
-  minSpawnTime: 1
-  maxSpawnTime: 5
+  minSpawnTime: 0.5
+  maxSpawnTime: 4
 --- !u!4 &529342222
 Transform:
   m_ObjectHideFlags: 0
@@ -1929,7 +1929,7 @@ MonoBehaviour:
   - {fileID: 1626562427464170449, guid: 7f783ee75c56a8a458f8497a04ca6d5b, type: 3}
   - {fileID: 4289490651985766327, guid: 1d15a97d831700b409cc15c75869f497, type: 3}
   minSpawnTime: 0.5
-  maxSpawnTime: 5
+  maxSpawnTime: 4
 --- !u!1 &1568390468
 GameObject:
   m_ObjectHideFlags: 0
