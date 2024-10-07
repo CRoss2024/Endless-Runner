@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    private DeathManager deathManager;
+    public DeathManager deathManager;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Start()
+    {
+        deathManager = FindAnyObjectByType<DeathManager>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
