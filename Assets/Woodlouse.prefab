@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2742954498833550691
+--- !u!1 &7101873271808624212
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6377072481122622864}
-  - component: {fileID: 5295866218960604573}
-  - component: {fileID: 5815985650097543353}
-  - component: {fileID: 1815158577930123242}
+  - component: {fileID: 314263602638678919}
+  - component: {fileID: 8423734325704059219}
+  - component: {fileID: 7064318371412516660}
+  - component: {fileID: 2921126372397750470}
   m_Layer: 0
-  m_Name: WoodSplinter
-  m_TagString: CleanUp
+  m_Name: Woodlouse
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6377072481122622864
+--- !u!4 &314263602638678919
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742954498833550691}
+  m_GameObject: {fileID: 7101873271808624212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.47, y: -2.06, z: 0.006564982}
+  m_LocalPosition: {x: 3.7698016, y: -2.06, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5295866218960604573
+--- !u!212 &8423734325704059219
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742954498833550691}
+  m_GameObject: {fileID: 7101873271808624212}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,24 +75,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 507d9260dd6161c439233c4868d3653c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2433d962a008f804abaf9acbc05b9dcc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.01, y: 1}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5815985650097543353
-PolygonCollider2D:
+--- !u!61 &7064318371412516660
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742954498833550691}
+  m_GameObject: {fileID: 7101873271808624212}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -118,32 +118,26 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.2820717}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.01, y: 1}
-    newSize: {x: 1.01, y: 1}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.114999995, y: -0.22}
-      - {x: -0.16499999, y: -0.5}
-      - {x: 0.16499999, y: -0.5}
-      - {x: 0.105, y: -0.31}
-      - {x: -0.055, y: -0.14}
-      - {x: -0.085, y: -0.14999999}
-  m_UseDelaunayMesh: 0
---- !u!114 &1815158577930123242
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.43585658}
+  m_EdgeRadius: 0
+--- !u!114 &2921126372397750470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2742954498833550691}
+  m_GameObject: {fileID: 7101873271808624212}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34212c5cf3f22fd44887db8b2d590f0c, type: 3}

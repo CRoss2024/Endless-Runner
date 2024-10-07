@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 139562371}
   - component: {fileID: 139562370}
   m_Layer: 5
-  m_Name: MenuButton (1)
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 418455135}
         m_TargetAssemblyTypeName: DeathManager, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1433,19 +1433,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 719541644}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 418455135}
-        m_TargetAssemblyTypeName: DeathManager, Assembly-CSharp
-        m_MethodName: RestartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &719541644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2469,8 +2457,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - {fileID: 2742954498833550691, guid: 1d6f56bfef5a37c4eafb95c6edbc6155, type: 3}
-  minSpawnTime: 0.5
-  maxSpawnTime: 4
+  - {fileID: 7101873271808624212, guid: 2b52aa7fdd86e644ea3025c3db63f5c6, type: 3}
+  minSpawnTime: 3
+  maxSpawnTime: 5
 --- !u!1 &2103279425
 GameObject:
   m_ObjectHideFlags: 0
