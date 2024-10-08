@@ -1,28 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CoinCollection : MonoBehaviour
 {
-    public AudioClip collect;
-
-    public AudioSource sfxPlayer;
-
-    void Start()
-    {
-        sfxPlayer = GetComponent<AudioSource>();
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object colliding with the coin is the player
         if (other.gameObject.CompareTag("Player"))
         {
-            // Add any score incrementing logic here. e.g.:
-            // ScoreManager.instance.AddScore(1);
-
             // Destroy the coin when it hits the player
-            sfxPlayer.PlayOneShot(collect);
             Destroy(gameObject);
         }
     }

@@ -15,10 +15,5 @@ public class Score : MonoBehaviour
     void FixedUpdate()
     {
         scoreText.text = "Score: " + Mathf.Round(scoreValue);
-
-        if (scoreIncreasing)
-        {
-            scoreValue += pointIncreasedPerSecond * Time.fixedDeltaTime;
-        }
     }
 }
