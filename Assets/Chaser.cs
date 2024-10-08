@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Chaser : MonoBehaviour
 {
@@ -10,13 +11,10 @@ public class Chaser : MonoBehaviour
 
     Animator anim;
 
-    public DeathManager deathManager;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        deathManager = FindAnyObjectByType<DeathManager>();
     }
 
     void Update()
@@ -28,7 +26,7 @@ public class Chaser : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            deathManager.ShowDeathScreen();
+            SceneManager.LoadSceneAsync("Game Over");
         }
     }
 }
