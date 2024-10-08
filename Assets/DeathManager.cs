@@ -11,7 +11,7 @@ public class DeathManager : MonoBehaviour
     public void ShowDeathScreen()
     {
         // Activate the death screen UI
-        deathScreenCanvas.SetActive(true);
+        SceneManager.LoadSceneAsync("Game Over");
 
         // Pause the game
         Time.timeScale = 0f;
