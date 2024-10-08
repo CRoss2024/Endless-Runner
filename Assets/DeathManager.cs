@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class DeathManager : MonoBehaviour
 {
-    public GameObject Canvas; // Reference to the Death Screen Canvas
-
     // Restart the game (called by a button)
     public void RestartGame()
     {
