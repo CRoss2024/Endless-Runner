@@ -25,6 +25,13 @@ public class DeathManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    public void MainMenu()
+    {
+        // Reset time and reload the current scene
+        Time.timeScale = 1f;
+        SceneManager.LoadSceneAsync("Main Menu");
+    }
+
     // Quit the game (called by a button)
     public void QuitGame()
     {
