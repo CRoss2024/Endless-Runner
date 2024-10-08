@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class CoinCollection : MonoBehaviour
 {
+    public AudioClip collect;
+
+    public AudioSource sfxPlayer;
+
+    void Start()
+    {
+        sfxPlayer = GetComponent<AudioSource>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Check if the object colliding with the coin is the player
@@ -13,6 +22,7 @@ public class CoinCollection : MonoBehaviour
             // ScoreManager.instance.AddScore(1);
 
             // Destroy the coin when it hits the player
+            sfxPlayer.PlayOneShot(collect);
             Destroy(gameObject);
         }
     }

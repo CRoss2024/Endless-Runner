@@ -26,5 +26,6 @@ public class CoinSpawner : MonoBehaviour
         // Instantiate the coin at the calculated position
         Instantiate(Collectible, coinPosition, Quaternion.identity);
         anim = GetComponent<Animator>();
+        
     }
 }
