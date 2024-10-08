@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2284191854032043516}
   - component: {fileID: 4941002874172659962}
   - component: {fileID: 8838819160338861510}
+  - component: {fileID: 1584471035261100161}
   m_Layer: 0
   m_Name: Spider
   m_TagString: CleanUp
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 047dd0ac31896b04a88edd47d5471dfb, type: 3}
+  m_Sprite: {fileID: 590989963, guid: 968af8393ad46de40b0ebb1e576e9dbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,4 +134,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34212c5cf3f22fd44887db8b2d590f0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathManager: {fileID: 0}
+--- !u!95 &1584471035261100161
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3408723100607514526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 150e0e5ec62d2cc4aa2d6517f53d6a3d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

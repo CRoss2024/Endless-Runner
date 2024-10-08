@@ -7,6 +7,8 @@ public class CoinSpawner : MonoBehaviour
     // Reference the coin prefab
     public GameObject Collectible;
 
+    Animator anim;
+
     // Define the offset or range where the coin should spawn on the platform
     public Vector2 coinOffset = new Vector2(0, 1); // Adjust as necessary
 
@@ -23,5 +25,6 @@ public class CoinSpawner : MonoBehaviour
 
         // Instantiate the coin at the calculated position
         Instantiate(Collectible, coinPosition, Quaternion.identity);
+        anim = GetComponent<Animator>();
     }
 }
