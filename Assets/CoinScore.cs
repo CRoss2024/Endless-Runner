@@ -9,12 +9,6 @@ public class CoinScore : MonoBehaviour
     public TextMeshProUGUI coinText;
     public int score;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D other)
     {
